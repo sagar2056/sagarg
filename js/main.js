@@ -1,6 +1,6 @@
 /*
     Name: ikonik
-    Description: Responsive AJAX Enabled vCard Template
+
     Version: 1.0
     Author: pixelwars
 */

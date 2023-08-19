@@ -1,14 +1,9 @@
-/*
-    Name: ikonik
 
-    Version: 1.0
-    Author: pixelwars
-*/
 
 (function ($) {
   "use strict";
 
-  /* global variables */
+
   var portfolioKeyword = "";
   var porftolioSingleActive = false;
   var porftolioSingleJustClosed = false;
@@ -111,7 +106,7 @@
             }
           }
         }
-      }); // end address change event
+      }); 
 
 
     }
@@ -273,18 +268,7 @@
     fixMarquee();
 
   });
-  // WINDOW ONLOAD
-
-
-
-  // ------------------------------
-  // ------------------------------
-  // FUNCTIONS
-  // ------------------------------
-  // ------------------------------
-
-
-  // ------------------------------
+  
   function initializeHome() {
     if ($("html").hasClass("one-page-layout")) {
       $("html").addClass("home-loaded");
